@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Angle Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Angle Generator</h1>
+        <p>Select a brand and a target to generate a new sales angle.</p>
+        
+        <select id="brand">
+            <option value="TruthFinder">TruthFinder</option>
+            <option value="Intelius">Intelius</option>
+            <option value="Instant Checkmate">Instant Checkmate</option>
+            <option value="US Search">US Search</option>
+        </select>
+
+        <select id="market">
+            <option value="Real Estate">Real Estate</option>
+            <option value="Niche Hobbyists">Niche Hobbyists</option>
+            <option value="Online Dating">Online Dating</option>
+            <option value="Gig Economy">Gig Economy</option>
+        </select>
+
+        <button onclick="generateAngle()">Generate Angle</button>
+
+        <div id="result" class="result-box">
+            Your creative angle will appear here...
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
